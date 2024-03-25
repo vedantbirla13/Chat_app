@@ -1,0 +1,27 @@
+.typing-indicator {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation: typing 0.8s infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      background-color: #bbb;
+    }
+    50% {
+      background-color: #999;
+    }
+    100% {
+      background-color: #bbb;
+    }
+  }
+  
