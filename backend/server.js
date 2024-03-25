@@ -77,7 +77,7 @@ app.use(errorHandler);
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chatify-xzz5.onrender.com",
   },
 });
 
