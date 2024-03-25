@@ -21,7 +21,7 @@ connectDB();
 app.use(
   cors({
     credentials: true,
-    origin: ["process.env.FRONTEND_URI"],//," https://chatify-boo7.onrender.com/"],
+    origin: ["process.env.FRONTEND_URI", "https://chatify-xzz5.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
